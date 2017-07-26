@@ -1,16 +1,23 @@
 {
   "root": true,
-  "extends": "eslint:recommended",
   "env": {
+    "jest": true,
     "node": true
   },
+  "extends": [
+    "eslint:recommended",
+    "plugin:jest/recommended"
+  ],
+  "plugins": [
+    "jest"
+  ],
   "rules": {
     "comma-dangle": ["error", "always-multiline"],
     "indent": ["error", 2],
     "linebreak-style": "error",
     "quote-props": ["error", "consistent-as-needed"],
     "quotes": ["error", "single", {"avoidEscape": true}],
-    "sort-keys": "error",
-    "semi": ["error", "always"]
+    "semi": ["error", "always"],
+    "sort-keys": "error"
   }
 }
