@@ -18,10 +18,14 @@
   "bugs": "https://github.com/jamieconnolly/babel-preset/issues",
   "homepage": "https://github.com/jamieconnolly/babel-preset#readme",
   "devDependencies": {
+    "babel-core": "^6.25.0",
     "eslint": "^4.3.0",
     "eslint-plugin-jest": "^20.0.0",
     "is-plain-obj": "^1.1.0",
     "jest": "^20.0.0"
+  },
+  "peerDependencies": {
+    "babel-core": "^6.25.0"
   },
   "engines": {
     "node": ">=4"
