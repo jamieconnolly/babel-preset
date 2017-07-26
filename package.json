@@ -4,7 +4,8 @@
   "description": "My own opinionated Babel preset",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "npm run lint"
   },
   "repository": "https://github.com/jamieconnolly/babel-preset",
   "keywords": [
@@ -14,5 +15,11 @@
   "author": "Jamie Connolly (https://github.com/jamieconnolly)",
   "license": "MIT",
   "bugs": "https://github.com/jamieconnolly/babel-preset/issues",
-  "homepage": "https://github.com/jamieconnolly/babel-preset#readme"
+  "homepage": "https://github.com/jamieconnolly/babel-preset#readme",
+  "devDependencies": {
+    "eslint": "^4.3.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
 }
