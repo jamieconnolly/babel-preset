@@ -6,10 +6,12 @@
   },
   "extends": [
     "eslint:recommended",
-    "plugin:jest/recommended"
+    "plugin:jest/recommended",
+    "plugin:node/recommended"
   ],
   "plugins": [
-    "jest"
+    "jest",
+    "node"
   ],
   "rules": {
     "comma-dangle": ["error", "always-multiline"],
