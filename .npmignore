@@ -1,0 +1,5 @@
+**/__tests__/**
+.eslintrc.json
+.gitignore
+.npmignore
+.travis.yml
