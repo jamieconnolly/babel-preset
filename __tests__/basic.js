@@ -6,4 +6,5 @@ it('test basic properties of config', function() {
   var config = require('../index.js');
 
   expect(isPlainObj(config)).toBe(true);
+  expect(config.presets).toBeTruthy();
 });
