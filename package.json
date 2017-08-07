@@ -18,7 +18,8 @@
   "bugs": "https://github.com/jamieconnolly/babel-preset/issues",
   "homepage": "https://github.com/jamieconnolly/babel-preset#readme",
   "dependencies": {
-    "babel-preset-env": "1.6.0"
+    "babel-preset-env": "1.6.0",
+    "babel-preset-stage-3": "6.24.1"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
