@@ -4,7 +4,7 @@ const babel = require('babel-core');
 const isPlainObj = require('is-plain-obj');
 
 it('should export an object', function() {
-  const config = require('../index');
+  const config = require('../index')();
 
   expect(isPlainObj(config)).toBe(true);
   expect(config.presets).toBeTruthy();
