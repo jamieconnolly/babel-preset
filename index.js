@@ -11,6 +11,7 @@ const presetStage3 = require.resolve('babel-preset-stage-3');
 module.exports = function(context, options) {
   options = options || {};
 
+  const debug = options.debug || false;
   const modules = options.modules || false;
   const targets = {};
 
@@ -30,7 +31,7 @@ module.exports = function(context, options) {
 
   return {
     presets: [
-      [presetEnv, {modules, targets}],
+      [presetEnv, {debug, modules, targets}],
       presetStage3,
     ],
   };
