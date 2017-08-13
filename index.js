@@ -11,11 +11,11 @@ const presetStage3 = require.resolve('babel-preset-stage-3');
 module.exports = function() {
   const targets = {};
 
-  if (typeof pkg.browserslist === 'object' && pkg.browserslist.length) {
+  if (pkg.browserslist) {
     targets.browsers = pkg.browserslist;
   }
 
-  if (typeof pkg.engines === 'object' && pkg.engines.node) {
+  if (pkg.engines && pkg.engines.node) {
     const version = pkg.engines.node;
 
     if (semver.valid(version)) {
