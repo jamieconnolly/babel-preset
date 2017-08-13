@@ -3,6 +3,7 @@
 [![Build Status][build-status-image]][build-status-url]
 [![Dependency status][dependency-status-image]][dependency-status-url]
 [![MIT License][license-image]][license-url]
+[![Version][version-image]][version-url]
 
 > My own opinionated Babel preset.
 
@@ -34,3 +35,6 @@ To get started, add this to your `.babelrc` file:
 
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg
 [license-url]: https://github.com/jamieconnolly/babel-preset/blob/master/LICENSE
+
+[version-image]: https://img.shields.io/npm/v/@jamieconnolly/babel-preset.svg
+[version-url]: https://www.npmjs.com/package/@jamieconnolly/babel-preset
