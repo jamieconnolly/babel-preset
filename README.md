@@ -25,6 +25,8 @@ To get started, add this to your `.babelrc` file:
 
 ## Options
 
+For more information on setting options for a preset, refer to the [plugin/preset options](https://babeljs.io/docs/plugins/#plugin-preset-options) documentation.
+
 ### `debug`
 
 `boolean`, defaults to `false`.
