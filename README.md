@@ -23,6 +23,22 @@ To get started, add this to your `.babelrc` file:
 }
 ```
 
+## Options
+
+### `debug`
+
+`boolean`, defaults to `false`.
+
+Outputs the targets/plugins used and the version specified in [plugin data version](https://github.com/babel/babel-preset-env/blob/master/data/plugins.json) to `console.log`.
+
+### `modules`
+
+`"amd" | "umd" | "systemjs" | "commonjs" | false`, defaults to `"false"`.
+
+Enable transformation of ES6 module syntax to another module type.
+
+Setting this to `false` will not transform modules.
+
 ## License
 
 [MIT License][license-url]
