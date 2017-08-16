@@ -1,5 +1,5 @@
 **/__tests__/**
-.eslintrc.json
+.eslintrc.js
 .gitignore
 .npmignore
 .travis.yml
