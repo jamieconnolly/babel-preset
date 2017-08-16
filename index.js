@@ -8,12 +8,12 @@ const versions = require('./versions.json');
 const presetEnv = require.resolve('babel-preset-env');
 const presetStage3 = require.resolve('babel-preset-stage-3');
 
-module.exports = function(context, options) {
+module.exports = (context, options) => {
   options = options || {};
 
-  const debug = options.debug || false;
-  const modules = options.modules || false;
-  const targets = {};
+  let debug = options.debug || false;
+  let modules = options.modules || false;
+  let targets = {};
 
   if (pkg.browserslist) {
     targets.browsers = pkg.browserslist;
