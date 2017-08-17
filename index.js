@@ -5,6 +5,7 @@ const semver = require('semver');
 
 const presetEnv = require.resolve('babel-preset-env');
 const presetStage3 = require.resolve('babel-preset-stage-3');
+const transformClassProperties = require.resolve('babel-plugin-transform-class-properties');
 
 module.exports = (context, options) => {
   options = options || {};
@@ -32,6 +33,9 @@ module.exports = (context, options) => {
   }
 
   return {
+    plugins: [
+      transformClassProperties, // in Stage 3 (remove as a breaking change)
+    ],
     presets: [
       [presetEnv, {debug, modules, targets}],
       presetStage3,
