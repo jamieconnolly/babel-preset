@@ -35,7 +35,7 @@ Outputs the targets/plugins used and the version specified in [plugin data versi
 
 ### `modules`
 
-`"amd" | "umd" | "systemjs" | "commonjs" | false`, defaults to `"false"`.
+`"amd" | "umd" | "systemjs" | "commonjs" | false`, defaults to `false`.
 
 Enable transformation of ES6 module syntax to another module type.
 
