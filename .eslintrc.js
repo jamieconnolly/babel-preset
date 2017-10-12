@@ -23,7 +23,7 @@ module.exports = {
     'indent': ['error', 2],
     'linebreak-style': 'error',
     'quote-props': ['error', 'consistent-as-needed'],
-    'quotes': ['error', 'single', {avoidEscape: true}],
+    'quotes': ['error', 'single', { avoidEscape: true }],
     'semi': ['error', 'always'],
     'sort-keys': 'error',
   },
