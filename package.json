@@ -1,6 +1,6 @@
 {
   "name": "@jamieconnolly/babel-preset",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My own opinionated Babel preset",
   "main": "index.js",
   "scripts": {
